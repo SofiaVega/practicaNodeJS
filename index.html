@@ -1,0 +1,15 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+        <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    </head>
+    <body>
+        <div class = "container" id = "app">
+            <h2>Categorias</h2>
+            <div v-for = "c in categorias">
+                <p>{{c.name}}</p>
+            </div>
+        </div>
+    </body>
+    <script src="bd.js"></script>
+</html>
