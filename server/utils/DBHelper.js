@@ -11,6 +11,7 @@ class DBHelper{
             user:'root',				// Nombre de usuario del administrador de Mysql
             password:'',			// Contraseña de administrador de Mysql
             database:'eshop'  			// Nombre de la base de datos
+            
         });
         conn.connect();
         return conn;

@@ -41,9 +41,7 @@ router.post('/allCategories', (req, res) => {
         if (err) throw err;
     
         // Bucle que recore los resultados y pinta en consola.
-        for(i=0; i<result.length; i++){
-            res.json(result)
-        }
+        res.json(result)
     
     });
     conn.end()
