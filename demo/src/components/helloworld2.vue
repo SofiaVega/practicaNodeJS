@@ -1,10 +1,13 @@
 <template>
   <div class="hello">
-  <div>
+  <div class = "container">
     <h2>Categorias</h2>
-    <button type="button" @click="allCategories">Mostrar categorias</button>
+    <button type="button" class = "btn-primary" @click="allCategories">Mostrar categorias</button>
+
     <div v-for = "c in categorias">
+      <div class = "row">
         <p>{{c.name}}</p>
+      </div>
     </div>
   </div>
   </div>
